@@ -1,0 +1,38 @@
+Options -Indexes
+
+<IfModule mod_authz_core.c>
+  <FilesMatch "^\.">
+    Require all denied
+  </FilesMatch>
+</IfModule>
+<IfModule !mod_authz_core.c>
+  <FilesMatch "^\.">
+    Order allow,deny
+    Deny from all
+  </FilesMatch>
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Tum alan adlarini ve www varyasyonlarini daima canonical .com alan adina yonlendir
+  RewriteCond %{HTTPS} !=on [OR]
+  RewriteCond %{HTTP_HOST} ^www\.cakmakakbuluthukuk\.com$ [NC,OR]
+  RewriteCond %{HTTP_HOST} ^(?:www\.)?cakmakakbuluthukuk\.com\.tr$ [NC]
+  RewriteRule ^(.*)$ https://cakmakakbuluthukuk.com/$1 [R=301,L]
+
+  RewriteCond %{REQUEST_FILENAME} -f [OR]
+  RewriteCond %{REQUEST_FILENAME} -d
+  RewriteRule ^ - [L]
+
+  RewriteRule ^ index.html [L]
+</IfModule>
+
+<IfModule mod_env.c>
+  SetEnv SMTP_HOST mail.cakmakakbuluthukuk.com
+  SetEnv SMTP_PORT 465
+  SetEnv SMTP_SECURE true
+  SetEnv SMTP_USER info@cakmakakbuluthukuk.com
+  SetEnv CONTACT_TO info@cakmakakbuluthukuk.com
+  SetEnv CONTACT_FROM info@cakmakakbuluthukuk.com
+</IfModule>

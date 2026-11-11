@@ -1,0 +1,66 @@
+// Çakmak & Akbulut Hukuk - Hakkımızda + Çalışma İlkelerimiz (tr/en/ar)
+export const aboutContent = {
+  tr: {
+    badge: 'ÇAKMAK & AKBULUT HUKUK',
+    title: 'Hakkımızda',
+    paragraphs: [
+      'Çakmak & Akbulut Hukuk, Bursa’da kurulan ve Avukat Tarık Çakmak ile Avukat Arb. Mesut Enes Akbulut tarafından faaliyetleri yürütülen bir hukuk bürosudur.',
+      'Hukuki destek sürecinin temelinde güven, açık iletişim ve karşılıklı anlayışın bulunduğuna inanıyoruz. Bu nedenle müvekkillerimizi dikkatle dinlemeyi, hukuki konuları anlaşılır biçimde açıklamayı ve sürecin aşamaları hakkında düzenli bilgilendirme yapmayı önemsiyoruz. Güven ilişkisini; mesleki özen, dürüstlük, gizlilik ve etik ilkelere bağlılıkla korumayı esas alıyoruz.',
+      'Her hukuki uyuşmazlığın kendine özgü koşulları olduğu bilinciyle, değerlendirmelerimizi somut olayın özellikleri ve yürürlükteki mevzuat çerçevesinde yapıyoruz. Amacımız, müvekkillerimizin hukuki süreçlerini daha iyi anlamalarına ve hakları konusunda bilinçli kararlar almalarına destek olmaktır.',
+      'Çakmak & Akbulut Hukuk olarak her dosyaya dikkat ve sorumlulukla yaklaşıyor; Bursa’da ve ihtiyaç duyulan diğer yerlerde hukuki destek sunmayı hedefliyoruz.',
+    ],
+    principlesTitle: 'Çalışma İlkelerimiz',
+    principles: [
+      { number: '01', title: 'Hukuka Bağlı Mesleki Bağımsızlık', description: 'Her hukuki değerlendirmeyi mevzuatı ve meslek kurallarını esas alarak yaparız. Mesleki kanaatimizi dış etkilerden bağımsız biçimde oluşturmayı önemseriz.' },
+      { number: '02', title: 'Güven ve Mesleki Gizlilik', description: 'Müvekkillerimizin paylaştığı bilgileri özenle ele alır, gizliliği ve kişisel verilerin korunmasını mesleki sorumluluğumuzun ayrılmaz bir parçası olarak görürüz.' },
+      { number: '03', title: 'Gerçekçi ve Açık Değerlendirme', description: 'Hukuki meseleleri güçlü ve dikkatle değerlendirilmesi gereken yönleriyle ele alırız. Sürecin belirsizliklerini ve olası gelişmeleri, kesin sonuç vaadinde bulunmadan açık bir dille aktarırız.' },
+      { number: '04', title: 'Süreç Boyunca İletişim', description: 'Hukuki sürecin anlaşılır olmasının önemli olduğuna inanırız. Gelişmeleri, ihtiyaç duyulan bilgi ve belgeleri ve sonraki aşamaları mümkün olduğunca açık biçimde paylaşırız.' },
+      { number: '05', title: 'Dosyaya Özgü Yaklaşım', description: 'Her uyuşmazlığın kendi koşulları ve ihtiyaçları vardır. Bu nedenle dosyaları genel kalıplarla değil, olayın özelliklerini ve ilgili hukuki çerçeveyi dikkate alarak değerlendiririz.' },
+      { number: '06', title: 'Titiz Hazırlık', description: 'Hukuki çalışmalarda belgelerin, sürelerin ve usul işlemlerinin dikkatle incelenmesine önem veririz. Her aşamada mesleki özen ve düzen içinde hareket etmeyi hedefleriz.' },
+      { number: '07', title: 'Sorumlu Hukuki Görüş', description: 'Müvekkillerimize aktaracağımız görüşlerin dayanaklarını ve sınırlarını anlaşılır kılmayı gözetiriz. Hukuki değerlendirmeyi, somut olayın bilgileri ve yürürlükteki mevzuat çerçevesinde yaparız.' },
+      { number: '08', title: 'Saygılı ve Etik Hizmet', description: 'Müvekkillerimizle ve sürecin diğer taraflarıyla ilişkilerimizde saygılı, dürüst ve meslek kurallarına uygun bir yaklaşım benimseriz.' },
+    ],
+  },
+  en: {
+    badge: 'ÇAKMAK & AKBULUT HUKUK',
+    title: 'About Us',
+    paragraphs: [
+      'Çakmak & Akbulut Hukuk is a law firm established in Bursa, whose activities are carried out by Attorney Tarık Çakmak and Attorney-Mediator Mesut Enes Akbulut.',
+      'We believe that trust, open communication and mutual understanding lie at the heart of the legal support process. For this reason, we attach importance to listening to our clients attentively, explaining legal matters in an understandable manner, and providing regular information about the stages of the process. We take it as our principle to protect the relationship of trust through professional diligence, honesty, confidentiality and adherence to ethical principles.',
+      'Aware that every legal dispute has its own specific circumstances, we base our assessments on the characteristics of the concrete case and the legislation in force. Our aim is to help our clients better understand their legal processes and make informed decisions regarding their rights.',
+      'As Çakmak & Akbulut Hukuk, we approach every file with care and responsibility; we aim to provide legal support in Bursa and in other locations where it is needed.',
+    ],
+    principlesTitle: 'Our Working Principles',
+    principles: [
+      { number: '01', title: 'Professional Independence Bound by Law', description: 'We carry out every legal assessment on the basis of legislation and the rules of the profession. We consider it important to form our professional opinion independently of external influences.' },
+      { number: '02', title: 'Trust and Professional Confidentiality', description: 'We handle the information shared by our clients with care, and regard confidentiality and the protection of personal data as an inseparable part of our professional responsibility.' },
+      { number: '03', title: 'Realistic and Transparent Assessment', description: 'We address legal matters with both their strengths and the aspects that require careful consideration. We convey the uncertainties of the process and possible developments in clear language, without promising a definite outcome.' },
+      { number: '04', title: 'Communication Throughout the Process', description: 'We believe that it is important for the legal process to be understandable. We share developments, the information and documents required, and the next stages as clearly as possible.' },
+      { number: '05', title: 'Case-Specific Approach', description: 'Every dispute has its own conditions and needs. Therefore, we assess files not through general patterns, but by taking into account the characteristics of the case and the relevant legal framework.' },
+      { number: '06', title: 'Meticulous Preparation', description: 'In legal work, we attach importance to the careful examination of documents, deadlines and procedural steps. At every stage, we aim to act with professional diligence and order.' },
+      { number: '07', title: 'Responsible Legal Opinion', description: 'We take care to make clear the bases and limits of the opinions we convey to our clients. We carry out the legal assessment within the framework of the information of the concrete case and the legislation in force.' },
+      { number: '08', title: 'Respectful and Ethical Service', description: 'In our relations with our clients and the other parties to the process, we adopt a respectful, honest approach that complies with the rules of the profession.' },
+    ],
+  },
+  ar: {
+    badge: 'ÇAKMAK & AKBULUT HUKUK',
+    title: 'من نحن',
+    paragraphs: [
+      'شركة تشاكماك أكبولوت للمحاماة هي مكتب محاماة تأسس في بورصة، ويتولى أنشطته المحامي طارق تشاكماك والمحامي مسوت إينس أكبولوت.',
+      'نؤمن بأن الثقة والتواصل المفتوح والتفاهم المتبادل تشكّل أساس عملية الدعم القانوني. ولذلك نحرص على الاستماع إلى موكلينا بعناية، وشرح المسائل القانونية بلغة واضحة، وتقديم معلومات منتظمة عن مراحل العملية. ونعتبر الحفاظ على علاقة الثقة عبر العناية المهنية والأمانة والسرية والالتزام بالمبادئ الأخلاقية أساسًا لعملنا.',
+      'وانطلاقًا من إدراكنا أن لكل نزاع قانوني ظروفه الخاصة، نبني تقييماتنا في ضوء خصائص الواقعة الملموسة والتشريعات السارية. وهدفنا هو مساعدة موكلينا على فهم إجراءاتهم القانونية بشكل أفضل واتخاذ قرارات واعية بشأن حقوقهم.',
+      'بصفتنا شركة تشاكماك أكبولوت للمحاماة، نتعامل مع كل ملف بعناية ومسؤولية؛ ونستهدف تقديم الدعم القانوني في بورصة وفي المواقع الأخرى التي تدعو الحاجة إليها.',
+    ],
+    principlesTitle: 'مبادئ عملنا',
+    principles: [
+      { number: '01', title: 'الاستقلال المهني المرتبط بالقانون', description: 'نجري كل تقييم قانوني استنادًا إلى التشريعات وقواعد المهنة. ونحرص على تكوين رأينا المهني بصورة مستقلة عن التأثيرات الخارجية.' },
+      { number: '02', title: 'الثقة والسرية المهنية', description: 'نتعامل بعناية مع المعلومات التي يشاركها موكلونا، ونعدّ السرية وحماية البيانات الشخصية جزءًا لا يتجزأ من مسؤوليتنا المهنية.' },
+      { number: '03', title: 'تقييم واقعي وواضح', description: 'نتناول المسائل القانونية من جوانب قوتها ومن الجوانب التي تستدعي دراسة متأنية. وننقل أوجه الغموض في العملية والتطورات المحتملة بلغة واضحة، دون الوعد بنتيجة قاطعة.' },
+      { number: '04', title: 'التواصل طوال العملية', description: 'نؤمن بأهمية أن تكون العملية القانونية مفهومة. ونشارك التطورات والمعلومات والمستندات المطلوبة والمراحل التالية بأوضح صورة ممكنة.' },
+      { number: '05', title: 'مقاربة خاصة بكل ملف', description: 'لكل نزاع ظروفه واحتياجاته. ولذلك نقيّم الملفات لا وفق قوالب عامة، بل مع مراعاة خصائص الواقعة والإطار القانوني ذي الصلة.' },
+      { number: '06', title: 'إعداد دقيق', description: 'نولي أهمية للفحص الدقيق للمستندات والمواعيد والإجراءات الشكلية في الأعمال القانونية. ونهدف في كل مرحلة إلى العمل بعناية مهنية ونظام.' },
+      { number: '07', title: 'رأي قانوني مسؤول', description: 'نحرص على توضيح الأسس والحدود التي يستند إليها الرأي الذي ننقله إلى موكلينا. ونجري التقييم القانوني في إطار معلومات الواقعة الملموسة والتشريعات السارية.' },
+      { number: '08', title: 'خدمة محترمة وأخلاقية', description: 'نعتمد في علاقاتنا مع موكلينا والأطراف الأخرى في العملية مقاربة محترمة وأمينة ومتوافقة مع قواعد المهنة.' },
+    ],
+  },
+};
